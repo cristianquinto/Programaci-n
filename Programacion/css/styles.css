@@ -192,3 +192,28 @@ margin: 0;
 .titu {
     text-align: center;
 }
+.ind{
+    width: 700px;
+    height: 25px;
+    border-radius: 4px;  
+}
+.ins{width: 700px;
+    height: 70px;
+    border-radius: 4px;  
+}
+.send{
+    font-weight: 15px;
+    background-color: rgb(76, 177, 76);
+    color: #f0f8ff;
+    height: 45px;
+    width: 100px;
+    border-radius: 6px;
+}
+.del{
+    font-weight: 15px;
+    background-color: rgb(240, 57, 57);
+    color: #f0f8ff;
+    height: 45px;
+    width: 100px;
+    border-radius: 6px;
+}

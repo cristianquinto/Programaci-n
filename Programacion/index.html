@@ -37,7 +37,7 @@
                 <ul>
                     <li>Interfaces de Programación de Aplicaciones del Navegador (APIs) — APIs construidas dentro de los navegadores que ofrecen funcionalidades como crear
                         dinámicamente contenido HTML y establecer estilos CSS, hasta capturar y manipular un vídeo desde la cámara web del usuario, o generar gráficos 3D y muestras
-                         de sonido.</li>
+                        de sonido.</li>
                     <li>APIs de terceros, que permiten a los desarrolladores incorporar funcionalidades en sus sitios de otros proveedores de contenidos como Twitter o
                         Facebook.</li>
                     <li> Marcos de trabajo y librerías de terceros que puedes aplicar a tu HTML para que puedas construir y publicar rápidamente sitios y aplicaciones.</li>
@@ -48,6 +48,66 @@
                 el Área de Aprendizaje en MDN, y en el resto de MDN.
             </p>
             <a href="https://www.javascript.com/" class="a1">Mas informacion</a>
+            <h3><strong>Ingresa tu opinion</strong></h3>
+            <hr>
+            <form action="#" method="post">
+                <label for="NombreCompleto"><strong>Nombre completo:</strong></label>
+                <br>
+                <input type="text" name="Nombre Completo" id="NombreCompleto" placeholder="Armando Casas" id="inputa" required class="ind">
+                <br>
+                <br>
+                <p><strong>Genero:</strong></p>
+                <input type="radio" id="masculino" name="genero" value="masculino">
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="femenino" name="genero" value="femenino" >
+                <label for="femenino">Femenino</label>
+                <br>
+                <br>
+                <label for="email"><strong>Correo Electrónico:</strong></label>
+                <br>
+                <input type="email" id="email" name="email" placeholder="armadocasasdebareque@gmail.com" required class="ind">  
+                <br>
+                <br>
+                <label for="Telefono"><strong>Telefono:</strong></label>
+                <br>
+                <input type="number" name="Telefono" id="Telefono" placeholder="+57 3002222121" required class="ind">
+                <br>
+                <br>
+                <label for="direccion"><strong>Direccion:</strong></label>
+                <br>
+                <input type="text" name="Direccion" id="Direccion" placeholder="Calle 123 #45-67" required class="ind">
+                <br>
+                <br>
+                <label for="fecha"><strong>Fecha de Nacimiento:</strong></label>
+                <br>
+                <input type="date" id="fecha" name="fecha" min="1940-01-01" max="2025-01-01" value="2025-01-01" required class="ind">
+                <br>
+                <br>
+                <label for="ciudad"><strong>Ciudad de Residencia:</strong></label>
+                <br>
+                <select id="ciudad" name="ciudad" required>
+                    <option value="" disabled selected>Seleccionar</option>
+                    <option value="bogota">Bogota</option>
+                    <option value="medellin">Medellin</option>
+                    <option value="cali">Cali</option>
+                    <option value="armenia">Armenia</option>
+                    <option value="manizales">Manizales</option>
+                    <option value="baranquilla">Barranquilla</option>
+                    <option value="bucaramanga">Bucaramanga</option>
+                </select>
+                <br>
+                <br>
+                <label for="imagen"><strong>Subir Foto:</strong></label>
+                <br>
+                <input type="file" id="imagen" name="imagen" accept=".jpg, .png" required class="ind">
+                <hr>
+                <textarea name="opinion" id="opinion" placeholder="Describe tu opion" minlength="5" maxlength="20" rows="4" cols="8" class="ins"></textarea >
+                <br>
+                <br>
+                <hr>
+                <input type="submit" value="Registrar" id="Registrar" name="Registrar" class="send">
+                <input type="reset" value="Restablecer" id="Restablecer" name="Restablecer" class="del">                
+            </form>
         </Section>
     </main>
     <footer class="footer">
