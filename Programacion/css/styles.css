@@ -43,6 +43,11 @@ nav ul li a {
     color: white;
     font-weight: bold;
 }   
+li a{
+    align-items: center;
+    align-content:center;
+    color: blue;
+}
 a:hover{
     color: black;
     background-color: yellow;
@@ -54,10 +59,17 @@ a:hover{
     height: 160px;
     border-radius: 10px;
 } 
-
+section{
+        text-align: center;
+        background-color:rgb(241, 233, 111);   
+        padding: 30px; 
+        margin-top: 20px;
+        border-radius: 8px  
+     
+}
 
 .sectionind{
-    text-align: justify;
+    text-align:justify;
     background-color:rgb(241, 233, 111);   
     padding: 30px; 
     margin-top: 20px;
