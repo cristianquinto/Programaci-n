@@ -115,8 +115,6 @@ text-decoration: none;
 .navdek .adek:hover {
 color: #ccc;
 }
-
-
 .contenidodek {
 max-width: 800px;
 margin: 2em auto;
@@ -139,4 +137,7 @@ clear: both;
 
 .footerdek .pdek {
 margin: 0;
+}
+.titu {
+    text-align: center;
 }
