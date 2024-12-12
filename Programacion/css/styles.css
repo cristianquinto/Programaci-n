@@ -38,8 +38,8 @@ header nav ul {
 
 /* no tiene header nav ya que va a hacer parte de otro nav dentro del main de herramientas*/
 nav ul li a {
-    text-decoration: none; 
-    color: white;
+    text-decoration: none;
+    color: bisque; 
     font-weight: bold;
 }   
 a:hover{
@@ -84,3 +84,87 @@ footer{
     border-radius: 8px  
 }
 
+/* estilos del main herramientas */
+.herramientas main{
+    background-color: #d1d1d15d;
+}
+/* estilos nav interno del main */
+.navherr {
+    grid-column: 1 / -1;
+    background: url(../img/fondonav.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 3px; 
+    padding: 30px;
+    margin-top: 10px;
+    color: yellow;
+}
+
+
+.navherr nav ul {
+    list-style-type: none; 
+    display: flex; 
+    margin-left: 50px;
+    column-gap: 15px;
+}
+
+.herramientas h2{
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+}
+.herramientas .tittle{
+    font-size: 20px;
+    text-align: left;
+}
+.herramientas aside{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px #acacac;
+    background: #ffffff;
+}
+.herramientas article{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px 2px #acacac;
+    background: #ffffff;
+}
+.herramientas section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.herramientas div{
+    margin: 5px;
+    padding: auto;
+    display: flex;
+    background: none;
+}
+
+.herramientas .info{
+    background: #000000;
+    align-items: baseline;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    height: auto;
+    width: 100%;
+    color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 4px 4px 4px 4px #acacac;
+}
+
+.herramientas p{
+    text-align: justify;
+
+}   
