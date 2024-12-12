@@ -1,0 +1,387 @@
+.bodyind{
+    background-color: yellow;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 60px;
+}
+.headerind{
+    background-color: black;
+    color: white;
+    height: 170px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+ 
+}
+h1{
+    font-weight: bolder;
+    font-size: 100px;
+    margin-left: -400px;
+}
+nav{
+  background-color: #292828;
+  border-radius: 6px;
+  margin-top: -90px;
+  margin-right: 50px;
+ 
+ 
+}
+nav ul li {
+    margin-right: 20px; 
+  }
+  
+nav ul {
+    list-style-type: none; 
+    display: flex; 
+    margin-right: 40px;
+    gap: 30px;
+    
+}
+nav ul li a {
+    text-decoration: none; 
+    color: white;
+    font-weight: bold;
+}  
+.sectiona a{
+    display: flex; 
+    flex-direction: column;
+    list-style: none;
+    text-decoration: none;
+    color: blue;
+} 
+a:hover{
+    color: black;
+    background-color: yellow;
+    border-radius: 2px;
+    
+}
+.imagen{
+    margin-left: 6px;
+    height: 160px;
+    border-radius: 10px;
+} 
+
+
+.sectionind{
+    text-align: justify;
+    background-color:rgb(241, 233, 111);   
+    padding: 30px; 
+    margin-top: 20px;
+    border-radius: 8px  
+} 
+.a1{
+    background-color: #292828;
+    color: white;
+    border-radius: 2px;
+}
+.a1:hover{
+    color: black(241, 238, 238);
+    background-color: rgb(243, 243, 237);
+    border-radius: 2px;
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px; 
+    margin-top: 20px;
+    border-radius: 8px  
+}
+.bodydek   {
+    background-color: yellow;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 60px;
+}
+
+.headerdek {
+background-color: #333;
+color: #fff;
+padding: 1em;
+text-align: center;
+}
+.recursos{
+    text-align: center;
+    background-color:rgb(241, 233, 111);   
+    padding: 50px 0;
+}
+.recursos .contenidor {
+    display:contents;
+    width: 20%;
+    margin: 19px;
+    text-align:center;
+}
+
+.recursos .contenidor img {
+    width: 180px;
+    height: 80px;
+    border-radius: 8px;
+}
+.contenidoar{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: -100px;
+    padding: 10px;
+}
+.contenidor{
+    padding: 1.5rem;
+}
+article{
+    background: V+rgb(241, 233, 111); 
+    border-radius: 10px;
+    overflow:visible;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+    width: 300px;
+    height: 400px;
+    margin: 70px;  
+    margin-right: 80px; 
+}
+section{
+    text-align: center;
+    background-color:rgb(241, 233, 111);   
+    padding: 30px; 
+    margin-top: 20px;
+    border-radius: 8px 
+}
+
+.navdek .uldek {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: space-between;
+}
+
+.navdek .lidek {
+margin-right: 20px;
+}
+
+.navdek .adek {
+color: #fff;
+text-decoration: none;
+}
+
+.navdek .adek:hover {
+color: #ccc;
+}
+.contenidodek {
+max-width: 800px;
+margin: 2em auto;
+padding: 2em;
+background-color: #fff;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contenidodek .h3dek {
+margin-top: 0;
+}
+
+.footerdek {
+background-color: #333;
+color: #fff;
+padding: 1em;
+text-align: center;
+clear: both;
+}
+
+.footerdek .pdek {
+margin: 0;
+}
+.titu {
+    text-align: center;
+}
+.ind{
+    width: 700px;
+    height: 25px;
+    border-radius: 4px;  
+}
+.ins{width: 700px;
+    height: 70px;
+    border-radius: 4px;  
+}
+.send{
+    font-weight: 15px;
+    background-color: rgb(76, 177, 76);
+    color: #f0f8ff;
+    height: 45px;
+    width: 100px;
+    border-radius: 6px;
+}
+.del{
+    font-weight: 15px;
+    background-color: rgb(240, 57, 57);
+    color: #f0f8ff;
+    height: 45px;
+    width: 100px;
+    border-radius: 6px;
+}
+table, th, td{
+    margin-left: 400px ;
+    margin-top: 60px;
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+th, td{
+    padding: 10px;
+}
+th{
+    text-align: left;
+    background-color: rgba(255, 255, 0, 0.534);
+}
+td{
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+
+.herramientas{
+    background-color: yellow;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 60px;
+}
+.herramientas header{
+    background-color: black;
+    color: white;
+    height: 170px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+ 
+}
+.herramientas h1{
+    font-weight: bolder;
+    font-size: 100px;
+    margin-left: -400px;
+}
+/* composicion del nav general de todas las paginas  */
+.herramientas header nav{
+  background-color: #292828;
+  border-radius: 6px;
+  margin-right: 50px;
+}
+.herramientas header nav ul li {
+    margin-right: 20px; 
+  }
+  
+.herramientas header nav ul {
+    list-style-type: none; 
+    display: flex; 
+    margin-right: 40px;
+    gap: 25px;
+}
+
+/* no tiene header nav ya que va a hacer parte de otro nav dentro del main de herramientas*/
+.herramientas nav ul li a {
+    text-decoration: none;
+    color: bisque; 
+    font-weight: bold;
+}   
+.herramientas a:hover{
+    color: black;
+    background-color: yellow;
+    border-radius: 2px;
+    padding: 15px;
+    
+}
+.herramientas .imagen{
+    margin-left: 6px;
+    height: 160px;
+    border-radius: 10px;
+} 
+
+
+.herramientas .sectionind{
+    text-align: justify;
+    background-color:rgb(241, 233, 111);   
+    padding: 30px; 
+    margin-top: 20px;
+    border-radius: 8px  
+} 
+.herramientas .a1{
+    background-color: #292828;
+    color: white;
+    border-radius: 2px;
+}
+.herramientas .a1:hover{
+    color: black(241, 238, 238);
+    background-color: rgb(243, 243, 237);
+    border-radius: 2px;
+}
+
+/* estilo de el footer que va a afectar a todas las paginas */
+.herramientas footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px; 
+    margin-top: 20px;
+    border-radius: 8px  
+}
+/* estilos del main herramientas */
+.herramientas main{
+    background-color: #d1d1d15d;
+}
+
+
+.herramientas h2{
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+}
+.herramientas .tittle{
+    font-size: 20px;
+    text-align: left;
+}
+.herramientas main aside{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px #acacac;
+    background: #000000;
+}
+.herramientas article{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px 2px #acacac;
+    background: #ffffff;
+}
+.herramientas div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.herramientas section{
+    margin: 5px;
+    padding: auto;
+    display: flex;
+    background: none;
+}
+
+.herramientas .info{
+    background: #000000;
+    align-items: baseline;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    height: auto;
+    width: 100%;
+    color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 4px 4px 4px 4px #acacac;
+}
+
+.herramientas p{
+    text-align: justify;
+
+}   
