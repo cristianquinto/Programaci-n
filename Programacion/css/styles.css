@@ -1,4 +1,4 @@
-.bodyind{
+body{
     background-color: yellow;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 60px;
@@ -19,25 +19,24 @@ h1{
     font-size: 100px;
     margin-left: -400px;
 }
-nav{
+/* composicion del nav general de todas las paginas  */
+header nav{
   background-color: #292828;
   border-radius: 6px;
-  margin-top: -90px;
   margin-right: 50px;
- 
- 
 }
-nav ul li {
+header nav ul li {
     margin-right: 20px; 
   }
   
-nav ul {
+header nav ul {
     list-style-type: none; 
     display: flex; 
     margin-right: 40px;
-    gap: 30px;
-    
+    gap: 25px;
 }
+
+/* no tiene header nav ya que va a hacer parte de otro nav dentro del main de herramientas*/
 nav ul li a {
     text-decoration: none; 
     color: white;
@@ -47,6 +46,7 @@ a:hover{
     color: black;
     background-color: yellow;
     border-radius: 2px;
+    padding: 15px;
     
 }
 .imagen{
@@ -73,7 +73,9 @@ a:hover{
     background-color: rgb(243, 243, 237);
     border-radius: 2px;
 }
-.footer{
+
+/* estilo de el footer que va a afectar a todas las paginas */
+footer{
     text-align: center;
     background-color: black;
     color: white;
@@ -81,3 +83,4 @@ a:hover{
     margin-top: 20px;
     border-radius: 8px  
 }
+
