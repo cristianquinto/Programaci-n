@@ -42,7 +42,14 @@ nav ul li a {
     text-decoration: none; 
     color: white;
     font-weight: bold;
-}   
+}  
+.sectiona a{
+    display: flex; 
+    flex-direction: column;
+    list-style: none;
+    text-decoration: none;
+    color: blue;
+} 
 a:hover{
     color: black;
     background-color: yellow;
@@ -93,6 +100,50 @@ background-color: #333;
 color: #fff;
 padding: 1em;
 text-align: center;
+}
+.recursos{
+    text-align: center;
+    background-color:rgb(241, 233, 111);   
+    padding: 50px 0;
+}
+.recursos .contenidor {
+    display:contents;
+    width: 20%;
+    margin: 19px;
+    text-align:center;
+}
+
+.recursos .contenidor img {
+    width: 180px;
+    height: 80px;
+    border-radius: 8px;
+}
+.contenidoar{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: -100px;
+    padding: 10px;
+}
+.contenidor{
+    padding: 1.5rem;
+}
+article{
+    background: V+rgb(241, 233, 111); 
+    border-radius: 10px;
+    overflow:visible;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+    width: 300px;
+    height: 400px;
+    margin: 70px;  
+    margin-right: 80px; 
+}
+section{
+    text-align: center;
+    background-color:rgb(241, 233, 111);   
+    padding: 30px; 
+    margin-top: 20px;
+    border-radius: 8px 
 }
 
 .navdek .uldek {
